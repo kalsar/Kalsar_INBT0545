@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="Personal.css">
+    <script src="https://kit.fontawesome.com/f71ef95392.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+         <nav class="navbar">
+            <ul  class="Ul" type="none">
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SKILL</a></li>
+                <li><a href="">PROJECT</a></li>
+                
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">SIGN-UP</a></li>
+                
+            </ul>
+        </nav>
+        <div class="intro">
+             <h1>Hey' I am <span>Kalsar</span></h1>
+            <h3>Fullstack developer</h3>
+
+            <p>This is my official Portfolio website<br>
+                to shocase my all works related to web development.
+            </p>
+        </div>
+        <div class="image">
+            <img src="dev.png" class="dev">
+        </div>
+        
+   </header>
+   <!----------------About--------------->
+   <div id="about">
+    
+        <div class="row"> 
+             <div class="column1">
+                   <img class="image" src="kalsaar.png">
+              </div>
+                <div class="column2">
+            <h1 class="sub-title">About Me</h1>
+                   <p>My name is Kalsar From G.B nagar.<br>
+                    I have done BCA from CCS University Merrut.<br>
+                Currently i am persuing MCA from KNIT Sultanpur UP.<br> </p>
+                     <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('skills')" >Skills</P>
+                        <P class="tab-links" onclick="opentab('experiance')">Experiance</P>
+                        <P class="tab-links" onclick="opentab('education')">Education </P>
+                        
+                     </div>
+                     
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C,C++</span></li>
+                            <li><span>JAVA</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>Web developer</span></li>
+                            <li><span>DSA</span></li>
+                           
+                          </ul>
+                     </div>
+                     
+                     <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>Intership at iNewByte</span></li>
+                            <li><span>web developer</span></li>
+                            <li><span>Registration manager at TCS ION</span></li>
+                           
+                          </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BCA</span></li>
+                            <li><span>MCA</span></li>
+                             
+                           
+                          </ul>
+                     </div>
+                 </div>
+        </div>
+   
+    </div>
+    <!----------------Portfolio--------------->
+   <div id="portfolio">
+    <div class="container">
+        
+        <h1 class="sub-title2">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.jpg" >
+                <div class="layer">
+                    <h3>Weather app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Asperiores nostrum eius corporis tenetur doloremque excepturi.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+                </div>
+                
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3>Personal portfolio app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Asperiores nostrum eius corporis tenetur doloremque excepturi.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="work-3.jpg" >
+                <div class="layer">
+                    <h3>Spotify app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Asperiores nostrum eius corporis tenetur doloremque excepturi.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+        
+    </div>
+   </div>
+   <!--------------------------- CONTACT --------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>kalsarxyz07@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9870698361</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kalsar-ali-shah-838862229"><i class="fa-brands fa-linkedin"></i></fa-brands></a>
+                    <a href="https://instagram.com/kalsar07?igshid=MzNlNGNkZWQ4Mg=="><li class="fa-brands fa-instagram"></i></li></a>
+                    <a href="https://github.com/kalsar"><li class="fa-brands fa-github"></i></li></a>
+                    <a href="https://twitter.com/mr_kalsar?t=zEyKARYJy-0T7k08op_hVw&s=09"><li class="fa-brands fa-twitter"></i></li></a>
+    
+    
+                </div>
+                <a href="my-cv.pdf"  download  class="btn btn2">Download CV</a>
+    
+            </div>
+            <div class="contact-right">
+                <form action=""> <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your Email" required>
+                    <textarea name="Message" id="" cols="" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- -----------------Sign-Up--------------------- -->
+
+
+   <div class="container2">
+    <h1 class="sub-title">Sign-Up</h1>
+    <form class="signup-form">
+      <h2>Sign Up</h2>
+      <div class="form-group">
+        
+        <input type="text" id="username" name="username" required placeholder="Username">
+      </div>
+      <div class="form-group">
+
+        <input type="email" id="email" name="email" required placeholder="Email">
+      </div>
+      <div class="form-group">
+        
+        <input type="password" id="password" name="password" required placeholder="password">
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Sign Up">
+      </div>
+    </form>
+  </div>
+
+
+    
+    <footer>
+        <p>Created by Kalsar. © 2023</p>
+
+    </footer>
+
+    <script> 
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+    
+
+  
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    
+
+    }
+        
+    
+    
+    </script>
+    
+</body>
+</html>
